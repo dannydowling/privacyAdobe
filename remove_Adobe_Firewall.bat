@@ -18,7 +18,6 @@ echo "#       38.25.63.10     x.acme.com              # x client host " >> C:\Wi
 echo " " >> C:\Windows\System32\drivers\etc\Hosts
 echo "# localhost name resolution is handled within DNS itself. " >> C:\Windows\System32\drivers\etc\Hosts
 echo "#	127.0.0.1       localhost" >> C:\Windows\System32\drivers\etc\Hosts
-echo "#	::1             localhost" > C:\Windows\System32\drivers\etc\Hosts " >> C:\Windows\System32\drivers\etc\Hosts
 
 netsh advfirewall firewall Delete rule name="AdobeRule1" 
 netsh advfirewall firewall Delete rule name="AdobeRule2" 
